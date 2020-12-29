@@ -1,13 +1,12 @@
 import React from 'react';
 
 const ApprovalCord = props =>
-{
-    console.log(props);
+{ 
     return (
         <div className="ui cards">
             <div className="card">
                 <div className="content"> 
-                    Are you sure
+                   {props.children}
                 </div> 
                 <div className="extra content">
                 <div className="ui two buttons">
